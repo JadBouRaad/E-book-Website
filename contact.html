@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- style Links -->
+    <link rel="stylesheet" href="./css/fontawesome.css" />
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="icon" href="./images/favicon.png" />
+
+    <title>Document</title>
+  </head>
+
+  <body>
+    <!-- *********************** -->
+    <!-- Navigation Bar  -->
+    <!-- *********************** -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+      <div class="container">
+        <a href="index.html"
+          ><img src="./images/logo.png" alt="" width="225"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          bs-data-toggle="collapse"
+          bs-data-target="#navbarNavDropdown"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="nabvarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link fw-semibold">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="index.html" class="nav-link fw-semibold">Details</a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="contact.html"
+                class="nav-link btn btn-outline-light fw-semibold mx-4 px-4"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- *********************** -->
+    <!-- Header  -->
+    <!-- *********************** -->
+    <header class="header pb-3 bg-light">
+      <div class="hero text-dark pt-7">
+        <div class="container-xl">
+          <div class="row">
+            <div class="col-12"><h1>Contact Us</h1></div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Contact Form -->
+    <section class="contact bg-light pb-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <form action="https://formspree.io/f/mbjnlklw" method="post">
+              <div class="mb-3">
+                <input
+                  type="text"
+                  class="form-control form-control-lg"
+                  name="name"
+                  placeholder="Name"
+                />
+              </div>
+              <div class="mb-3">
+                <input
+                  type="email"
+                  class="form-control form-control-lg"
+                  name="email"
+                  placeholder="Email Address"
+                />
+              </div>
+              <div class="mb-3">
+                <textarea
+                  name="message"
+                  class="form-control form-control-lg"
+                  rows="6"
+                  placeholder="Message"
+                ></textarea>
+              </div>
+              <div class="d-grid"></div>
+              <button type="Submit" class="btn btn-primary text-white mt-3">
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Map -->
+    <section class="location my-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-10 offset-1">
+            <h3>Our Location</h3>
+            <p class="mb-4">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo
+              temporibus adipisci assumenda ullam dicta numquam tempore
+              consequatur deleniti. Ducimus, impedit.
+            </p>
+            <div class="map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d33859098.71777259!2d-12.328587300000013!3d-58.80400019999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb09dff882a7809e1%3A0xb08d0a385dc8c7c7!2sAntarctica!5e0!3m2!1sen!2sfr!4v1705258449142!5m2!1sen!2sfr"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social  Section -->
+    <section class="social text-bg-dark py-6 overflow-hidden">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 offset-md-3 text-center fs-4">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi eum
+              iure dignissimos cupiditate cumque rem explicabo accusantium vitae
+              minus quod?
+            </p>
+            <div class="social-icons d-flex justify-content-center gap-4">
+              <a
+                href="https://www.facebook.com/"
+                class="text-white"
+                target="_blank"
+                ><i class="fab fa-facebook fa-2x"></i
+              ></a>
+
+              <i class="fab fa-twitter fa-2x"></i>
+              <i class="fab fa-instagram fa-2x"></i>
+              <i class="fab fa-linkedin fa-2x"></i>
+              <i class="fab fa-pinterest fa-2x"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-top border-primary bg-dark text-white py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <ul class="nav">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link link-light">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="index.html" class="nav-link link-light">Details</a>
+              </li>
+              <li class="nav-item">
+                <a href="contact.html" class="nav-link link-light">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <p class="text-end d-none d-md-block">
+              Copyright &copy; Blog Mastery 2023
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- js Link -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/scrit.js"></script>
+  </body>
+</html>
